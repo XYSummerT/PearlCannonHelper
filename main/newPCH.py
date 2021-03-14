@@ -43,6 +43,7 @@ if mx > 0:
         mz = mz * (-1)
         tntx,tntz,mx,mz = PCalculator.pearl(mx,mz,gt,dtnt)
 else:
+    mx = mx*(-1)
     if mz > 0:
         tntx,tntz,mx,mz = PCalculator.pearl(mx,mz,gt,dtnt)
     else:
