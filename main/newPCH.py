@@ -12,27 +12,20 @@ import Trajectory
 
 
 #输入值
-#px = float(input("请输入珍珠坐标x"))
-#pz = float(input("请输入珍珠坐标z"))
-#dx = float(input("请输入目的地坐标x"))
-#dz = float(input("请输入目的地坐标z"))
-#dtnt = float(input("请输入tnt加速度"))
-#gt = float(input("请输入到达时间"))
-
-mx = 100.0
-mz = 100.0
-dtnt = 0.6025
-gt = 1.0
-px = 0.0
-pz = px
+px = float(input("请输入珍珠坐标x"))
+pz = float(input("请输入珍珠坐标z"))
+dx = float(input("请输入目的地坐标x"))
+dz = float(input("请输入目的地坐标z"))
+dtnt = float(input("请输入tnt加速度"))
+gt = float(input("请输入到达时间"))
 
 
 
 
 
 #计算 比较
-#mx = dx - px
-#mz = dz - pz
+mx = dx - px
+mz = dz - pz
 
 
 
